@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "968238820721",
+    "firebase_url": "https://whatsappcloned-24b5b.firebaseio.com",
+    "project_id": "whatsappcloned-24b5b",
+    "storage_bucket": "whatsappcloned-24b5b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:968238820721:android:a9d2f8e12f2bafe4",
+        "android_client_info": {
+          "package_name": "com.an.dinhthanhan.anchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "968238820721-klakiitgdvsu07ovrcbnl030b8v8ee2k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXQB1uwECAdnTSQx16I8T_G5Nqamsvrac"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
