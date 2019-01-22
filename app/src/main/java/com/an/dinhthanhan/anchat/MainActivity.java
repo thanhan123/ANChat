@@ -32,9 +32,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-//        FirebaseApp.initializeApp(this);
+        FirebaseApp.initializeApp(this);
 
-//        userIsLoggedIn();
+        userIsLoggedIn();
 
         mPhoneNumber = findViewById(R.id.phoneNumber);
         mCode = findViewById(R.id.code);
@@ -89,10 +89,11 @@ public class MainActivity extends AppCompatActivity {
 
     private void userIsLoggedIn() {
         FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
-        if (user != null)
+        if (user != null) {
             startActivity(new Intent(getApplicationContext(), MainPageActivity.class));
             finish();
             return;
+        }
     }
 
     private  void startPhoneNumberVerification() {
