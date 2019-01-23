@@ -23,6 +23,14 @@
           }
         },
         {
+          "client_id": "968238820721-qnvk55rkjuqoaa4odt96o9r91t2bbftv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.an.dinhthanhan.anchat",
+            "certificate_hash": "1f663ebb2172c7b7fccc05a1a7701ace40b6f945"
+          }
+        },
+        {
           "client_id": "968238820721-klakiitgdvsu07ovrcbnl030b8v8ee2k.apps.googleusercontent.com",
           "client_type": 3
         }
