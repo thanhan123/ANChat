@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "968238820721-ngjv7o0rne1i6l4sod68mgd463kcphk3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.an.dinhthanhan.anchat",
+            "certificate_hash": "38b51ee45bc1d4d3ea167a908b31baa5e74c991b"
+          }
+        },
+        {
           "client_id": "968238820721-klakiitgdvsu07ovrcbnl030b8v8ee2k.apps.googleusercontent.com",
           "client_type": 3
         }
@@ -29,8 +37,13 @@
           "status": 1
         },
         "appinvite_service": {
-          "status": 1,
-          "other_platform_oauth_client": []
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "968238820721-klakiitgdvsu07ovrcbnl030b8v8ee2k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         },
         "ads_service": {
           "status": 2
