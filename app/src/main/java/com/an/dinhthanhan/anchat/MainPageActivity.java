@@ -71,6 +71,15 @@ public class MainPageActivity extends AppCompatActivity {
                 if (dataSnapshot.exists()) {
                     for (DataSnapshot childSnapshot: dataSnapshot.getChildren()) {
                         ChatObject chat = new ChatObject(childSnapshot.getKey());
+                        boolean isExist = false;
+                        for (ChatObject mChatIterator : chatList) {
+                            if (mChatIterator.getChatId().equals(chat.getChatId())) {
+                                isExist = true;
+                                break;
+                            }
+                        }
+                        if (isExist)
+                            continue;
                         chatList.add(chat);
                     }
                     mChatListAdapter.notifyDataSetChanged();
